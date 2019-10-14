@@ -67,6 +67,13 @@ namespace ListTesting
             {
                 Console.WriteLine(proberty.ToString());
             }
+            proberties.Remove(proberty4);
+            proberties.Remove(proberty2);
+            Console.WriteLine();
+            foreach (Proberty proberty in proberties)
+            {
+                Console.WriteLine(proberty.ToString());
+            }
         }
        
     }
